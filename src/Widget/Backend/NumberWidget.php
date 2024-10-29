@@ -37,7 +37,7 @@ class NumberWidget extends Widget {
 
 	public function generate(): string {
 		return \sprintf(
-			'<input type="number" name="%s" id="ctrl_%s" class="tl_number_widget%s" value="%s" %s>',
+			'<input type="number" name="%s" id="ctrl_%s" class="tl_text%s" value="%s" %s>',
 			$this->name,
 			$this->id,
 			$this->class ? ' '.$this->class : '',
