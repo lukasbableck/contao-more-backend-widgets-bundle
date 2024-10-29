@@ -12,14 +12,10 @@ class RangeWidget extends Widget {
 	public function __set($strKey, $varValue): void {
 		switch ($strKey) {
 			case 'maxval':
-				if ($varValue > 0) {
-					$this->arrAttributes['max'] = $varValue;
-				}
+				$this->arrAttributes['max'] = $varValue;
 				break;
 			case 'minval':
-				if ($varValue > 0) {
-					$this->arrAttributes['min'] = $varValue;
-				}
+				$this->arrAttributes['min'] = $varValue;
 				break;
 			case 'step':
 				if ($varValue > 0) {
