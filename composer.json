@@ -1,0 +1,41 @@
+{
+    "name": "lukasbableck/contao-more-backend-widgets-bundle",
+    "type": "contao-bundle",
+	"description": "This bundle adds more backend widgets/inputTypes.",
+	"keywords": [
+		"contao",
+		"backend",
+		"widgets",
+		"inputType",
+		"input",
+		"range",
+		"number"
+	],
+    "license": "LGPL-3.0-or-later",
+	"authors": [
+		{
+			"name": "Lukas Bableck",
+			"email": "lukas@bableck.dev",
+			"homepage": "https://bableck.dev"
+		}
+	],
+    "require": {
+        "php": "^8.1",
+        "contao/core-bundle": "^5.3"
+    },
+	"conflict": {
+		"contao/manager-plugin": "<2.0 || >=3.0"
+	},
+	"require-dev": {
+		"contao/manager-plugin": "^2.0",
+		"friendsofphp/php-cs-fixer": "^3.57"
+	},
+    "autoload": {
+        "psr-4": {
+            "Lukasbableck\\ContaoMoreBackendWidgetsBundle\\": "src/"
+        }
+    },
+	"extra": {
+		"contao-manager-plugin": "Lukasbableck\\ContaoMoreBackendWidgetsBundle\\ContaoManager\\Plugin"
+	}
+}
