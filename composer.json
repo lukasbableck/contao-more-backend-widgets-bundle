@@ -1,7 +1,7 @@
 {
     "name": "lukasbableck/contao-more-backend-widgets-bundle",
     "type": "contao-bundle",
-	"description": "This bundle adds more backend widgets/inputTypes.",
+	"description": "This bundle adds backend widgets/inputTypes which can for example be used in other extensions or in RockSolid Custom Elements.",
 	"keywords": [
 		"contao",
 		"backend",
