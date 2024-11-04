@@ -23,12 +23,12 @@ The widget is not designed to save any value in the database.\
 
 ### number
 
-Supports min and max attributes via eval.minval/eval.maxval and step via eval.step.\
+Supports min and max attributes via eval.minval/eval.maxval and step via eval.step.
 
 <img width="313" alt="image" src="https://github.com/user-attachments/assets/072842fc-6b32-4f5a-8da7-732c61644a59">
 
 ### range
 
-Supports min and max attributes via eval.minval/eval.maxval and step via eval.step.\
+Supports min and max attributes via eval.minval/eval.maxval and step via eval.step.
 
 <img width="313" alt="image" src="https://github.com/user-attachments/assets/b5f0ea5c-f83c-4719-87e4-d10f06a82337">
