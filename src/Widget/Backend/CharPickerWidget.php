@@ -25,6 +25,7 @@ class CharPickerWidget extends Widget {
 			$this->getAttributes()
 		);
 		foreach ($this->options as $char) {
+			$char = $char['value'];
 			$widget .= "<button type='button' class='char-picker-button' data-char='$char'>$char</button>";
 		}
 		$widget .= '</div>';
