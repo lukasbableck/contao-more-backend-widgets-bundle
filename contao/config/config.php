@@ -1,10 +1,12 @@
 <?php
 
 use Contao\System;
+use Lukasbableck\ContaoMoreBackendWidgetsBundle\Widget\Backend\CharPickerWidget;
 use Lukasbableck\ContaoMoreBackendWidgetsBundle\Widget\Backend\NumberWidget;
 use Lukasbableck\ContaoMoreBackendWidgetsBundle\Widget\Backend\RangeWidget;
 use Symfony\Component\HttpFoundation\Request;
 
+$GLOBALS['BE_FFL']['charPicker'] = CharPickerWidget::class;
 $GLOBALS['BE_FFL']['number'] = NumberWidget::class;
 $GLOBALS['BE_FFL']['range'] = RangeWidget::class;
 

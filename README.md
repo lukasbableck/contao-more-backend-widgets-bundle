@@ -3,6 +3,7 @@
 This bundle adds backend widgets/inputTypes which can for example be used in other extensions or in RockSolid Custom Elements.
 
 Currently the following widgets are available:
+- charPicker
 - number
 - range
 
@@ -14,6 +15,11 @@ Currently the following widgets are available:
 ```
 
 ## Widgets
+
+### charPicker
+
+This is used by lukasbableck/contao-title-description-bundle. It is intended to be used in combination with a JS script and wont do anything on its own.\
+The widget is not designed to save any value in the database.\
 
 ### number
 
