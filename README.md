@@ -18,8 +18,11 @@ Currently the following widgets are available:
 
 ### charPicker
 
-This is used by lukasbableck/contao-title-description-bundle. It is intended to be used in combination with a JS script and wont do anything on its own.\
-The widget is not designed to save any value in the database.\
+This is used by [lukasbableck/contao-title-description-bundle](https://github.com/lukasbableck/contao-title-description-bundle).\
+It is intended to be used in combination with a JS script and wont do anything on its own.\
+The widget is not designed to save any value in the database.
+
+<img width="626" alt="image" src="https://github.com/user-attachments/assets/ad4c0dba-0b47-4036-a3d3-c83ea12b31dc">
 
 ### number
 
