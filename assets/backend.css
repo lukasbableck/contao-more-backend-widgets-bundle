@@ -1,0 +1,52 @@
+.tl_range_widget {
+	height: 30px;
+	margin: 3px 0;
+	width: 100%;
+}
+
+.widget .char-picker {
+	display: flex;
+	flex-flow: row wrap;
+	margin-block: 4px;
+	.char-picker-button {
+		appearance: none;
+		border: 1px solid var(--form-border);
+		background-color: var(--form-bg);
+		display: flex;
+		align-items: center;
+		justify-content: center;
+		font-size: 20px;
+		height: 35px;
+		width: 40px;
+		cursor: pointer;
+		position: relative;
+		transition: background-color 0.2s;
+		&:hover {
+			background-color: var(--panel-bg);
+		}
+		&:not(:last-of-type) {
+			border-right: none;
+		}
+	}
+}
+
+.widget .color-widget {
+	position: relative;
+	input[type='color'] {
+		cursor: pointer;
+		position: absolute;
+		top: 4px;
+		right: 1px;
+		height: calc(100% - 8px);
+		width: 2rem;
+		padding: 0;
+		border: none;
+		&::-webkit-color-swatch-wrapper {
+			padding: 0;
+		}
+		&::-webkit-color-swatch {
+			border: none;
+			border-inline-start: 1px solid var(--form-border);
+		}
+	}
+}
