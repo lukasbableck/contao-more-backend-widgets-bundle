@@ -31,6 +31,8 @@ Adds a color picker widget with both a normal text input and a color input.\
 It's recommended to use `'rgxp' => 'color'` and `'isHexColor' => true` for fields with this inputType.\
 Aside from the `color` regexp, this bundle also adds `colorHex`, `colorHexRGB` and `colorHexRGBA` regexps.
 
+![image](https://github.com/user-attachments/assets/5c88bcf9-c917-475f-aa94-c3b4a13198b7)
+
 ### number
 
 Supports min and max attributes via eval.minval/eval.maxval and step via eval.step.
