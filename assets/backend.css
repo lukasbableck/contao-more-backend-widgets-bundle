@@ -41,6 +41,8 @@
 		width: 2rem;
 		padding: 0;
 		border: none;
+		border-top-right-radius: 2px;
+		border-bottom-right-radius: 2px;
 		&::-webkit-color-swatch-wrapper {
 			padding: 0;
 		}

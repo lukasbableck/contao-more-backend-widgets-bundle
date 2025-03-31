@@ -4,6 +4,7 @@ This bundle adds backend widgets/inputTypes which can for example be used in oth
 
 Currently the following widgets are available:
 - charPicker
+- color
 - number
 - range
 
@@ -24,6 +25,12 @@ The widget is not designed to save any value in the database.
 
 <img width="626" alt="image" src="https://github.com/user-attachments/assets/ad4c0dba-0b47-4036-a3d3-c83ea12b31dc">
 
+### color
+
+Adds a color picker widget with both a normal text input and a color input.\
+It's recommended to use `'rgxp' => 'color'` and `'isHexColor' => true` for fields with this inputType.\
+Aside from the `color` regexp, this bundle also adds `colorHex`, `colorHexRGB` and `colorHexRGBA` regexps.
+
 ### number
 
 Supports min and max attributes via eval.minval/eval.maxval and step via eval.step.
@@ -35,3 +42,23 @@ Supports min and max attributes via eval.minval/eval.maxval and step via eval.st
 Supports min and max attributes via eval.minval/eval.maxval and step via eval.step.
 
 <img width="313" alt="image" src="https://github.com/user-attachments/assets/b5f0ea5c-f83c-4719-87e4-d10f06a82337">
+
+
+## Regular expressions
+
+### color
+
+Expects a color in the format `RRGGBB`, where `RR`, `GG` and `BB` are hexadecimal values between `00` and `FF`.\
+This regexp is intended to be used in combination with the `color` inputType.
+
+### colorHex
+
+Expects a color in the format `#RGB`, `#RRGGBB`, `#RGBA` or `#RRGGBBAA`, where `R`, `G`, `B` and `A` are hexadecimal values between `0` and `F`.
+
+### colorHexRGB
+
+Expects a color in the format `#RGB` or `#RRGGBB`, where `R`, `G` and `B` are hexadecimal values between `0` and `F`.
+
+### colorHexRGBA
+
+Expects a color in the format `#RGBA` or `#RRGGBBAA`, where `R`, `G`, `B` and `A` are hexadecimal values between `0` and `F`.
